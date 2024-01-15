@@ -54,8 +54,8 @@ Lists the project dependencies.
 
 ## Getting Started
 ### Prerequisites
-[1] Make sure you have python 3.0 and above running on your computer 
-[2] Make sure you have pip installed
+- Make sure you have python 3.0 and above running on your computer 
+- Make sure you have pip installed
 
 ### Clone the Repository:
 
@@ -87,7 +87,8 @@ The pipeline will extract data from the specified S3 bucket, perform transformat
 Run the unit tests to ensure the functionality of the ETL components:
 ```
 python -m test
-
+```
+```
 pytest -v tests/test_extractor.py
 pytest -v tests/test_transformer.py
 pytest -v tests/test_loader.py
