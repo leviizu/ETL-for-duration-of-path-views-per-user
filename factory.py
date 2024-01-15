@@ -17,7 +17,6 @@ class DataProcessor:
             extracted_df = self.extractor.extract_data()
 
             # Transform
-            # data = pd.concat(extracted_df, ignore_index=True)
             aggregated_df = self.transformer.aggregate_data(extracted_df)
             pivoted_df = self.transformer.pivot_data(aggregated_df)
 
