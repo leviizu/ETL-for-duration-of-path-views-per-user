@@ -2,15 +2,15 @@
 This README provides an overview of the ETL (Extract, Transform, Load) pipeline implemented in the project, along with instructions for setup, installation, and usage.
 
 ## Table of Contents
-Overview
-Project Structure
-Getting Started
-Installation
-Running the ETL Pipeline
-Testing
-Dependencies
-Contributing
-License
+- Overview
+- Project Structure
+- Getting Started
+- Installation
+- Running the ETL Pipeline
+- Testing
+- Dependencies
+- Contributing
+- License
 
 ## Overview
 The ETL pipeline is designed to extract data from a specified S3 bucket, transform the extracted data through aggregation and pivoting, and load the final result into a CSV file. The pipeline consists of three main components: Extractor, Transformer, and Loader.
