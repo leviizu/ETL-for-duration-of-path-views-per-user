@@ -8,9 +8,7 @@ This README provides an overview of the ETL (Extract, Transform, Load) pipeline 
 - Installation
 - Running the ETL Pipeline
 - Testing
-- Dependencies
-- Contributing
-- License
+
 
 ## Overview
 The ETL pipeline is designed to extract data from a specified S3 bucket, transform the extracted data through aggregation and pivoting, and load the final result into a CSV file. The pipeline consists of three main components: Extractor, Transformer, and Loader.
@@ -55,13 +53,21 @@ Defines the DataProcessor class, which orchestrates the entire ETL pipeline.
 Lists the project dependencies.
 
 ## Getting Started
+### Prerequisites
+[1] Make sure you have python 3.0 and above running on your computer 
+[2] Make sure you have pip installed
 
 ### Clone the Repository:
 
 ```
 git clone https://github.com/leviizu/ETL-for-duration-of-path-views-per-user.git
+```
+
+### Replace repository_directory with the directory the repository was cloned into
+```
 cd <repository_directory>
 ```
+
 ### Install Dependencies:
 ```
 pip install -r requirements.txt
@@ -86,26 +92,7 @@ pytest -v tests/test_extractor.py
 pytest -v tests/test_transformer.py
 pytest -v tests/test_loader.py
 ```
-Dependencies
-The project has the following dependencies:
 
-- certifi==2023.11.17
-- charset-normalizer==3.3.2
-- idna==3.6
-- iniconfig==2.0.0
-- numpy==1.26.3
-- packaging==23.2
-- pandas==2.1.4
-- pluggy==1.3.0
-- pytest==7.4.4
-- pytest-mock==3.12.0
-- python-dateutil==2.8.2
-- pytz==2023.3.post1
-- requests==2.31.0
-- six==1.16.0
-- tzdata==2023.4
-- urllib3==2.1.0
-- Contributing
 
 
 
